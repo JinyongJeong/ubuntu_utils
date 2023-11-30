@@ -13,3 +13,6 @@ sudo apt install docker-ce docker-ce-cli containerd.io -y
 sudo usermod -aG docker $USER
 newgrp docker
 docker version
+
+# Install docker compose
+sudo apt install docker-compose-plugin
